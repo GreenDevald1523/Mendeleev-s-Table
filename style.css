@@ -16,12 +16,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
 .wrapper {
     display: flex;
-    overflow: auto;
+    overflow-x: auto;
     min-height: 100%;
     min-width: 100%;
 }
 .content {
-    max-width: 2000px;
+    max-width: 1790px;
     margin: 100px auto;
     font-size: 20px;
     font-family: sans-serif;
@@ -82,7 +82,7 @@ td {
     font-weight: bold;
     text-align: center;
     word-break: break-all;
-    width: 1%;
+    max-width: 1%;
 }
 .el_left .el_name {
     font-weight: bold;
@@ -133,7 +133,7 @@ h2 {
 .B {
     float: right;
 }
-@media (max-width: 2000px) {
+@media (max-width: 1700px) {
     .content {
         max-width: 1598px;
     }
@@ -146,19 +146,6 @@ h2 {
 @media screen and (max-width: 1404px) {
     .content {
         min-width: 1410px;
+
     }
-}
-/*.periods, .rows, .oids, .highest_oxyds, .FWC, .AIB, .groups_els, .el_none {
-    visibility: hidden;
-}
-td {
-    border: none;
-}
-.table__title {
-    text-align: center;
-}
-.el_left, .el_right, .el_center {
-    display: block;
-    text-align: center;
-    height: 100%;
 }
