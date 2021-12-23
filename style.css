@@ -1,0 +1,164 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+.wrapper {
+    display: flex;
+    overflow: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+.content {
+    max-width: 2000px;
+    margin: 100px auto;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.table__title {
+    max-width: 100%;
+    font-size: 5vh;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+tbody:nth-child(2) td {
+    word-spacing: 20px;
+}
+table {
+    border-collapse: collapse;
+}
+.table1 {
+    min-width: 100%;
+    table-layout: fixed;
+}
+.table2 {
+    min-width: 100%;
+    table-layout: fixed;
+}
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+.row__1 td:nth-child(3) {
+    text-align: center;
+}
+.row td{
+    min-width: 90px;
+}
+.periods, .rows {
+    text-align: center;
+    vertical-align: middle;
+    word-break: break-all;
+    font-size: 18px;
+    font-weight: bold;
+    width: 1%;
+}
+.el_left, .el_right {
+    line-height: 12px;
+}
+.highest_oxyds {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.FWC {
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.oids {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    word-break: break-all;
+    width: 1%;
+}
+.el_left .el_name {
+    font-weight: bold;
+    font-size: 28px;
+    float: left;
+}
+.el_right .el_name {
+    font-weight: bold;
+    font-size: 28px;
+    float: right;
+}
+.el_left .el_number_right, .el_right .el_number_right {
+    width: 20px;
+    text-align: center;
+    background-color: white;
+}
+.el_left .el_number_right, .el_left .el_weight_right {
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+}
+.el_right .el_number_right, .el_right .el_weight_right {
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+.el_left .el_fullname_en, .el_left .el_fullname_ru {
+    font-size: 12px;
+    float: left;
+}
+.el_right .el_fullname_en, .el_right .el_fullname_ru {
+    font-size: 12px;
+    float: right;
+}
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+.AIB {
+    text-align: center;
+}
+.A {
+    float: left;
+}
+.all_I {
+    display: inline;
+}
+.B {
+    float: right;
+}
+@media (max-width: 2000px) {
+    .content {
+        max-width: 1598px;
+    }
+}
+@media (max-width: 1620px) {
+    .content {
+        max-width: 1400px;
+    }
+}
+@media screen and (max-width: 1404px) {
+    .content {
+        min-width: 1410px;
+    }
+}
+/*.periods, .rows, .oids, .highest_oxyds, .FWC, .AIB, .groups_els, .el_none {
+    visibility: hidden;
+}
+td {
+    border: none;
+}
+.table__title {
+    text-align: center;
+}
+.el_left, .el_right, .el_center {
+    display: block;
+    text-align: center;
+    height: 100%;
+}

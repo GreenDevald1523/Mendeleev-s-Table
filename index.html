@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Таблица Менделеева</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h1 class="table__title">
+                Периодическая система Д. И. Менделеева
+            </h1>
+            <table class="table1">
+                <tbody>
+                  <tr class="row__1">
+                    <td rowspan="2" class="periods">Периоды</td>
+                    <td rowspan="2" class="rows">Ряды</td>
+                    <td colspan="12" rowspan="1" class="groups_els">Группы элементов</td>
+                  </tr>
+                  <tr class="AIB">
+                    <td>
+                        <span class="A">A</span> 
+                        <span class="all_I">I</span>
+                        <span class="B">B</span>
+                    </td>
+                    <td>
+                        <span class="A">A</span> 
+                        <span class="all_I">II</span>
+                        <span class="B">B</span>
+                    </td>
+                    <td>
+                        <span class="A">A</span> 
+                        <span class="all_I">II</span>
+                        <span class="B">B</span>
+                    </td>
+                    <td>
+                        <span class="A">A</span> 
+                        <span class="all_I">III</span>
+                        <span class="B">B</span>
+                    </td>
+                    <td>
+                        <span class="A">A</span> 
+                        <span class="all_I">IV</span>
+                        <span class="B">B</span>
+                    </td>
+                    <td>
+                        <span class="A">A</span> 
+                        <span class="all_I">V</span>
+                        <span class="B">B</span>
+                    </td>
+                    <td>
+                        <span class="A">A</span> 
+                        <span class="all_I">VI</span>
+                        <span class="B">B</span>
+                    </td>
+                    <td colspan="3">
+                        <span class="A">A</span> 
+                        <span class="all_I">VII</span>
+                        <span class="B">B</span>
+                    </td>
+                  </tr>
+                  <tr class="row__3">
+                    <td class="periods">1</td>
+                    <td class="rows">1</td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">H</span>
+                        <span class="el_number_right">1</span> <br>
+                        <span class="el_weight_right">1.00794</span> <br>
+                        <span class="el_fullname_en">Hydrogenium</span> <br>
+                        <span class="el_fullname_ru">Водород</span>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="el_left el_none" style="background-color: #fe689f;">
+                        <span class="el_name">(H)</span>
+                    </td>
+                    <td colspan="1"></td>
+                    <td></td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">He</span>
+                        <span class="el_number_right">2</span> <br>
+                        <span class="el_weight_right">4.002602</span> <br>
+                        <span class="el_fullname_en">Helium</span> <br>
+                        <span class="el_fullname_ru">Гелий</span>
+                    </td>
+                  </tr>
+                  <tr class="row__3">
+                    <td class="periods">2</td>
+                    <td class="rows">2</td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Li</span>
+                        <span class="el_number_right">3</span> <br>
+                        <span class="el_weight_right">6.941</span> <br>
+                        <span class="el_fullname_en">Lithium</span> <br>
+                        <span class="el_fullname_ru">Литий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Be</span>
+                        <span class="el_number_right">4</span> <br>
+                        <span class="el_weight_right">9.012182</span> <br>
+                        <span class="el_fullname_en">Beryllium</span> <br>
+                        <span class="el_fullname_ru">Бериллий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">B</span>
+                        <span class="el_number_right">5</span> <br>
+                        <span class="el_weight_right">10.811</span> <br>
+                        <span class="el_fullname_en">Borum</span> <br>
+                        <span class="el_fullname_ru">Бор</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">C</span>
+                        <span class="el_number_right">6</span> <br>
+                        <span class="el_weight_right">12.011</span> <br>
+                        <span class="el_fullname_en">Cartboneum</span> <br>
+                        <span class="el_fullname_ru">Углерод</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">N</span>
+                        <span class="el_number_right">7</span> <br>
+                        <span class="el_weight_right">14.00674</span> <br>
+                        <span class="el_fullname_en">Nitrogenium</span> <br>
+                        <span class="el_fullname_ru">Азот</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">O</span>
+                        <span class="el_number_right">8</span> <br>
+                        <span class="el_weight_right">15.9994</span> <br>
+                        <span class="el_fullname_en">Florum</span> <br>
+                        <span class="el_fullname_ru">Фтор</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">F</span>
+                        <span class="el_number_right">9</span> <br>
+                        <span class="el_weight_right">18.9984032</span> <br>
+                        <span class="el_fullname_en">Oxygenium</span> <br>
+                        <span class="el_fullname_ru">Кислород</span>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Ne</span>
+                        <span class="el_number_right">10</span> <br>
+                        <span class="el_weight_right">20.1797</span> <br>
+                        <span class="el_fullname_en">Neon</span> <br>
+                        <span class="el_fullname_ru">Неон</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="periods">3</td>
+                    <td class="rows">3</td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Na</span>
+                        <span class="el_number_right">11</span> <br>
+                        <span class="el_weight_right">22.989770</span> <br>
+                        <span class="el_fullname_en">Natrium</span> <br>
+                        <span class="el_fullname_ru">Натрий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Mg</span>
+                        <span class="el_number_right">12</span> <br>
+                        <span class="el_weight_right">24.3050</span> <br>
+                        <span class="el_fullname_en">Magnesium</span> <br>
+                        <span class="el_fullname_ru">Магний</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Al</span>
+                        <span class="el_number_right">13</span> <br>
+                        <span class="el_weight_right">26.981538</span> <br>
+                        <span class="el_fullname_en">Aluminium</span> <br>
+                        <span class="el_fullname_ru">Алюминий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Si</span>
+                        <span class="el_number_right">14</span> <br>
+                        <span class="el_weight_right">28.0855</span> <br>
+                        <span class="el_fullname_en">Silicium</span> <br>
+                        <span class="el_fullname_ru">Кремний</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">P</span>
+                        <span class="el_number_right">15</span> <br>
+                        <span class="el_weight_right">30.973761</span> <br>
+                        <span class="el_fullname_en">Phosphorus</span> <br>
+                        <span class="el_fullname_ru">Фосфор</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">S</span>
+                        <span class="el_number_right">16</span> <br>
+                        <span class="el_weight_right">32.077</span> <br>
+                        <span class="el_fullname_en">Suffur</span> <br>
+                        <span class="el_fullname_ru">Сера</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Cl</span>
+                        <span class="el_number_right">17</span> <br>
+                        <span class="el_weight_right">35.4527</span> <br>
+                        <span class="el_fullname_en">Chlorine</span> <br>
+                        <span class="el_fullname_ru">Хлор</span>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Ar</span>
+                        <span class="el_number_right">18</span> <br>
+                        <span class="el_weight_right">39.948</span> <br>
+                        <span class="el_fullname_en">Argon</span> <br>
+                        <span class="el_fullname_ru">Аргон</span>
+                    </td>
+                  </tr>
+                  <tr class="row">
+                    <td rowspan="2" class="periods">4</td>
+                    <td class="rows">4</td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">K</span>
+                        <span class="el_number_right">19</span> <br>
+                        <span class="el_weight_right">39.0983</span> <br>
+                        <span class="el_fullname_en">Kalium</span> <br>
+                        <span class="el_fullname_ru">Калий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Ca</span>
+                        <span class="el_number_right">20</span> <br>
+                        <span class="el_weight_right">40.078</span> <br>
+                        <span class="el_fullname_en">Calcium</span> <br>
+                        <span class="el_fullname_ru">Кальций </span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Sc</span>
+                        <span class="el_number_right">21</span> <br>
+                        <span class="el_weight_right">44.955910</span> <br>
+                        <span class="el_fullname_en">Scandium</span> <br>
+                        <span class="el_fullname_ru">Скандий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Ti</span>
+                        <span class="el_number_right">22</span> <br>
+                        <span class="el_weight_right">47.867</span> <br>
+                        <span class="el_fullname_en">Titanium</span> <br>
+                        <span class="el_fullname_ru">Титан</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">V</span>
+                        <span class="el_number_right">23</span> <br>
+                        <span class="el_weight_right">50.9415</span> <br>
+                        <span class="el_fullname_en">Vanadium</span> <br>
+                        <span class="el_fullname_ru">Ванадий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Cr</span>
+                        <span class="el_number_right">24</span> <br>
+                        <span class="el_weight_right">51.9961</span> <br>
+                        <span class="el_fullname_en">Chronium</span> <br>
+                        <span class="el_fullname_ru">Хром</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Mn</span>
+                        <span class="el_number_right">25</span> <br>
+                        <span class="el_weight_right">54.938046</span> <br>
+                        <span class="el_fullname_en">Marganium</span> <br>
+                        <span class="el_fullname_ru">Марганец</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Fe</span>
+                        <span class="el_number_right">26</span> <br>
+                        <span class="el_weight_right">55.845</span> <br>
+                        <span class="el_fullname_en">Ferrum</span> <br>
+                        <span class="el_fullname_ru">Железо</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Co</span>
+                        <span class="el_number_right">27</span> <br>
+                        <span class="el_weight_right">58.933200</span> <br>
+                        <span class="el_fullname_en">Cobalstium</span> <br>
+                        <span class="el_fullname_ru">Кобальт</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Ni</span>
+                        <span class="el_number_right">28</span> <br>
+                        <span class="el_weight_right">58.6934</span> <br>
+                        <span class="el_fullname_en">Niccolum</span> <br>
+                        <span class="el_fullname_ru">Никель</span>
+                    </td>
+                  </tr>
+                  <tr class="row">
+                    <td class="periods">5</td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Cu</span>
+                        <span class="el_number_right">29</span> <br>
+                        <span class="el_weight_right">63.548</span> <br>
+                        <span class="el_fullname_en">Cuprium</span> <br>
+                        <span class="el_fullname_ru">Медь</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Zn</span>
+                        <span class="el_number_right">30</span> <br>
+                        <span class="el_weight_right">65.39</span> <br>
+                        <span class="el_fullname_en">Zincum</span> <br>
+                        <span class="el_fullname_ru">Цинк</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Ga</span>
+                        <span class="el_number_right">31</span> <br>
+                        <span class="el_weight_right">69.723</span> <br>
+                        <span class="el_fullname_en">Gallium</span> <br>
+                        <span class="el_fullname_ru">Галлий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Ge</span>
+                        <span class="el_number_right">32</span> <br>
+                        <span class="el_weight_right">72.61</span> <br>
+                        <span class="el_fullname_en">Germanium</span> <br>
+                        <span class="el_fullname_ru">Германий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">As</span>
+                        <span class="el_number_right">33</span> <br>
+                        <span class="el_weight_right">74.92160</span> <br>
+                        <span class="el_fullname_en">Arsenicum</span> <br>
+                        <span class="el_fullname_ru">Мышьяк</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Se</span>
+                        <span class="el_number_right">34</span> <br>
+                        <span class="el_weight_right">78.96</span> <br>
+                        <span class="el_fullname_en">Selenium</span> <br>
+                        <span class="el_fullname_ru">Селен</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Br</span>
+                        <span class="el_number_right">35</span> <br>
+                        <span class="el_weight_right">79.904</span> <br>
+                        <span class="el_fullname_en">Bromum</span> <br>
+                        <span class="el_fullname_ru">Бром</span>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Kr</span>
+                        <span class="el_number_right">36</span> <br>
+                        <span class="el_weight_right">83.80</span> <br>
+                        <span class="el_fullname_en">Krypton</span> <br>
+                        <span class="el_fullname_ru">Криптон</span>
+                    </td>
+                  </tr>
+                  <tr class="row">
+                    <td rowspan="2" class="periods">5</td>
+                    <td class="rows">6</td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Rb</span>
+                        <span class="el_number_right">37</span> <br>
+                        <span class="el_weight_right">85.4678</span> <br>
+                        <span class="el_fullname_en">Rubinium</span> <br>
+                        <span class="el_fullname_ru">Рубидий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Sr</span>
+                        <span class="el_number_right">38</span> <br>
+                        <span class="el_weight_right">87.62</span> <br>
+                        <span class="el_fullname_en">Strontium</span> <br>
+                        <span class="el_fullname_ru">Стронций</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Y</span>
+                        <span class="el_number_right">39</span> <br>
+                        <span class="el_weight_right">88.90585</span> <br>
+                        <span class="el_fullname_en">Yttrium</span> <br>
+                        <span class="el_fullname_ru">Иттрий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Zr</span>
+                        <span class="el_number_right">40</span> <br>
+                        <span class="el_weight_right">91.224</span> <br>
+                        <span class="el_fullname_en">Zirconium</span> <br>
+                        <span class="el_fullname_ru">Цирконий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Nb</span>
+                        <span class="el_number_right">41</span> <br>
+                        <span class="el_weight_right">92.90638</span> <br>
+                        <span class="el_fullname_en">Niobium</span> <br>
+                        <span class="el_fullname_ru">Ниобий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Mo</span>
+                        <span class="el_number_right">42</span> <br>
+                        <span class="el_weight_right">95.94</span> <br>
+                        <span class="el_fullname_en">Molybdeanium</span> <br>
+                        <span class="el_fullname_ru">Молибден</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Tc*</span>
+                        <span class="el_number_right">43</span> <br>
+                        <span class="el_weight_right">(97)</span> <br>
+                        <span class="el_fullname_en">Technetium</span> <br>
+                        <span class="el_fullname_ru">Технеций</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Ru</span>
+                        <span class="el_number_right">44</span> <br>
+                        <span class="el_weight_right">101.07</span> <br>
+                        <span class="el_fullname_en">Ruthenium</span> <br>
+                        <span class="el_fullname_ru">Рутений</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Rh</span>
+                        <span class="el_number_right">45</span> <br>
+                        <span class="el_weight_right">102.90550</span> <br>
+                        <span class="el_fullname_en">Rhodium</span> <br>
+                        <span class="el_fullname_ru">Родий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Pd</span>
+                        <span class="el_number_right">46</span> <br>
+                        <span class="el_weight_right">106.42</span> <br>
+                        <span class="el_fullname_en">Palladium</span> <br>
+                        <span class="el_fullname_ru">Палладий</span>
+                    </td>
+                  </tr>
+                  <tr class="row">
+                    <td class="rows">7</td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Ag</span>
+                        <span class="el_number_right">47</span> <br>
+                        <span class="el_weight_right">107.8682</span> <br>
+                        <span class="el_fullname_en">Argentium</span> <br>
+                        <span class="el_fullname_ru">Серебро</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Cd</span>
+                        <span class="el_number_right">48</span> <br>
+                        <span class="el_weight_right">112.411</span> <br>
+                        <span class="el_fullname_en">Cadmium</span> <br>
+                        <span class="el_fullname_ru">Кадмий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">In</span>
+                        <span class="el_number_right">49</span> <br>
+                        <span class="el_weight_right">114.818</span> <br>
+                        <span class="el_fullname_en">Litium</span> <br>
+                        <span class="el_fullname_ru">Литий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Sn</span>
+                        <span class="el_number_right">50</span> <br>
+                        <span class="el_weight_right">118.710</span> <br>
+                        <span class="el_fullname_en">Stannum</span> <br>
+                        <span class="el_fullname_ru">Олово</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Sb</span>
+                        <span class="el_number_right">51</span> <br>
+                        <span class="el_weight_right">121.760</span> <br>
+                        <span class="el_fullname_en">Stibium</span> <br>
+                        <span class="el_fullname_ru">Сурьма</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Te</span>
+                        <span class="el_number_right">52</span> <br>
+                        <span class="el_weight_right">127.60</span> <br>
+                        <span class="el_fullname_en">Tellurium</span> <br>
+                        <span class="el_fullname_ru">Теллур</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">I</span>
+                        <span class="el_number_right">53</span> <br>
+                        <span class="el_weight_right">126.90447</span> <br>
+                        <span class="el_fullname_en">Iodine</span> <br>
+                        <span class="el_fullname_ru">Йод</span>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Xe</span>
+                        <span class="el_number_right">54</span> <br>
+                        <span class="el_weight_right">131.29</span> <br>
+                        <span class="el_fullname_en">Xenon</span> <br>
+                        <span class="el_fullname_ru">Ксенон</span>
+                    </td>
+                  </tr>
+                  <tr class="row">
+                    <td rowspan="2" class="periods">6</td>
+                    <td class="rows">8</td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Cs</span>
+                        <span class="el_number_right">55</span> <br>
+                        <span class="el_weight_right">132.90545</span> <br>
+                        <span class="el_fullname_en">Cesium</span> <br>
+                        <span class="el_fullname_ru">Цезий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Ba</span>
+                        <span class="el_number_right">56</span> <br>
+                        <span class="el_weight_right">137.327</span> <br>
+                        <span class="el_fullname_en">Barlium</span> <br>
+                        <span class="el_fullname_ru">Барий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">La</span>
+                        <span class="el_number_right">57</span> <br>
+                        <span class="el_weight_right">138.9055</span> <br>
+                        <span class="el_fullname_en">Lanthanum</span> <br>
+                        <span class="el_fullname_ru">Лантан</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Hf</span>
+                        <span class="el_number_right">72</span> <br>
+                        <span class="el_weight_right">178.46</span> <br>
+                        <span class="el_fullname_en">Hafnium</span> <br>
+                        <span class="el_fullname_ru">Гафний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Ta</span>
+                        <span class="el_number_right">73</span> <br>
+                        <span class="el_weight_right">180.9479</span> <br>
+                        <span class="el_fullname_en">Tantalum</span> <br>
+                        <span class="el_fullname_ru">Тантал</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">W</span>
+                        <span class="el_number_right">74</span> <br>
+                        <span class="el_weight_right">183.84</span> <br>
+                        <span class="el_fullname_en">Wolframium</span> <br>
+                        <span class="el_fullname_ru">Вольфраф</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Re</span>
+                        <span class="el_number_right">75</span> <br>
+                        <span class="el_weight_right">186.207</span> <br>
+                        <span class="el_fullname_en">Rhenium</span> <br>
+                        <span class="el_fullname_ru">рений</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Os</span>
+                        <span class="el_number_right">76</span> <br>
+                        <span class="el_weight_right">190.23</span> <br>
+                        <span class="el_fullname_en">Osmium</span> <br>
+                        <span class="el_fullname_ru">Осмий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Ir</span>
+                        <span class="el_number_right">77</span> <br>
+                        <span class="el_weight_right">192.217</span> <br>
+                        <span class="el_fullname_en">Iridium</span> <br>
+                        <span class="el_fullname_ru">Иридий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Pt</span>
+                        <span class="el_number_right">78</span> <br>
+                        <span class="el_weight_right">195.078</span> <br>
+                        <span class="el_fullname_en">Platinum</span> <br>
+                        <span class="el_fullname_ru">Платина</span>
+                    </td>
+                  </tr>
+                  <tr class="row">
+                    <td class="rows">9</td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Au</span>
+                        <span class="el_number_right">79</span> <br>
+                        <span class="el_weight_right">196.96655</span> <br>
+                        <span class="el_fullname_en">Aurum</span> <br>
+                        <span class="el_fullname_ru">Золото</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Hg</span>
+                        <span class="el_number_right">80</span> <br>
+                        <span class="el_weight_right">200.59</span> <br>
+                        <span class="el_fullname_en">Hydrargyrum</span> <br>
+                        <span class="el_fullname_ru">Ртуть</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Ti</span>
+                        <span class="el_number_right">81</span> <br>
+                        <span class="el_weight_right">204.3833</span> <br>
+                        <span class="el_fullname_en">Thallium</span> <br>
+                        <span class="el_fullname_ru">таллий</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Pb</span>
+                        <span class="el_number_right">82</span> <br>
+                        <span class="el_weight_right">207.2</span> <br>
+                        <span class="el_fullname_en">Plumbum</span> <br>
+                        <span class="el_fullname_ru">Свинец</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Bi</span>
+                        <span class="el_number_right">83</span> <br>
+                        <span class="el_weight_right">208.98038</span> <br>
+                        <span class="el_fullname_en">Bismuthum</span> <br>
+                        <span class="el_fullname_ru">Висмут</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Po*</span>
+                        <span class="el_number_right">84</span> <br>
+                        <span class="el_weight_right">(210)</span> <br>
+                        <span class="el_fullname_en">Polonium</span> <br>
+                        <span class="el_fullname_ru">Полоний</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">At*</span>
+                        <span class="el_number_right">85</span> <br>
+                        <span class="el_weight_right">(210)</span> <br>
+                        <span class="el_fullname_en">Astatium</span> <br>
+                        <span class="el_fullname_ru">Астат</span>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td class="el_left" style="background-color: #fcff00;">
+                        <span class="el_name">Rn*</span>
+                        <span class="el_number_right">86</span> <br>
+                        <span class="el_weight_right">(222)</span> <br>
+                        <span class="el_fullname_en">Radon</span> <br>
+                        <span class="el_fullname_ru">Радон</span>
+                    </td>
+                  </tr>
+                  <tr class="row">
+                    <td class="periods">7</td>
+                    <td class="rows">10</td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Fe*</span>
+                        <span class="el_number_right">87</span> <br>
+                        <span class="el_weight_right">(223)</span> <br>
+                        <span class="el_fullname_en">Francium</span> <br>
+                        <span class="el_fullname_ru">Франций</span>
+                    </td>
+                    <td class="el_left" style="background-color: #fe689f;">
+                        <span class="el_name">Ra*</span>
+                        <span class="el_number_right">88</span> <br>
+                        <span class="el_weight_right">(226)</span> <br>
+                        <span class="el_fullname_en">Radium</span> <br>
+                        <span class="el_fullname_ru">Радий </span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Ac*</span>
+                        <span class="el_number_right">89</span> <br>
+                        <span class="el_weight_right">(227)</span> <br>
+                        <span class="el_fullname_en">Actinium</span> <br>
+                        <span class="el_fullname_ru">Актиний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Rf*</span>
+                        <span class="el_number_right">104</span> <br>
+                        <span class="el_weight_right">(261)</span> <br>
+                        <span class="el_fullname_en">Rutherfordium</span> <br>
+                        <span class="el_fullname_ru">Резерфордий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Db*</span>
+                        <span class="el_number_right">105</span> <br>
+                        <span class="el_weight_right">(262)</span> <br>
+                        <span class="el_fullname_en">Dubnium</span> <br>
+                        <span class="el_fullname_ru">Дубний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Sg*</span>
+                        <span class="el_number_right">106</span> <br>
+                        <span class="el_weight_right">(263)</span> <br>
+                        <span class="el_fullname_en">Seaborgium</span> <br>
+                        <span class="el_fullname_ru">Сиборгий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Bh*</span>
+                        <span class="el_number_right">107</span> <br>
+                        <span class="el_weight_right">(264)</span> <br>
+                        <span class="el_fullname_en">Bohrium</span> <br>
+                        <span class="el_fullname_ru">Борий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Hs*</span>
+                        <span class="el_number_right">108</span> <br>
+                        <span class="el_weight_right">(265)</span> <br>
+                        <span class="el_fullname_en">Hassium</span> <br>
+                        <span class="el_fullname_ru">Хассий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">
+                        <span class="el_name">Mt*</span>
+                        <span class="el_number_right">109</span> <br>
+                        <span class="el_weight_right">(268)</span> <br>
+                        <span class="el_fullname_en">Meitnerium</span> <br>
+                        <span class="el_fullname_ru">Мейтнерий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #62a3ff;">    
+                        <span class="el_number_right" style="float: right">110</span> <br>
+                        <span class="el_weight_right">(269)</span> <br>
+                        <span class="el_fullname_en"> </span> <br>
+                        <span class="el_fullname_ru"> </span>
+                    </td>
+                  </tr>
+                  <tr class="row">
+                    <td colspan="2" class="highest_oxyds">ВЫСШИЕ<br> ОКСИДЫ</td>
+                    <td class="el_center"><h2>R<sub>2</sub>O</h2></td>
+                    <td class="el_center"><h2>RO</h2></td>
+                    <td class="el_center"><h2>R<sub>2</sub>O<sub>3</sub></h2></td>
+                    <td class="el_center"><h2>RO<sub>3</sub></h2></td>
+                    <td class="el_center"><h2>R<sub>2</sub>O<sub>5</sub></h2></td>
+                    <td class="el_center"><h2>RO<sub>3</sub></h2></td>
+                    <td class="el_center"><h2>R<sub>2</sub>O<sub>7</sub></h2></td>
+                    <td class="el_center"colspan="3"><h2>RO<sub>4</sub></h2></td>
+                  </tr>
+                  <tr class="row">
+                    <td colspan="2" class="FWC">ЛЕТУЧИЕ<br> ВОДОРОДНЫЕ<br> СОЕДИНЕНИЯ</td>
+                    <td class="el_center"></td>
+                    <td class="el_center"></td>
+                    <td class="el_center"></td>
+                    <td class="el_center"><h2>RH<sub>4</sub></h2></td>
+                    <td class="el_center"><h2>RH<sub>3</sub></h2></td>
+                    <td class="el_center"><h2>H<sub>2</sub>R</h2></td>
+                    <td class="el_center"><h2>HR</h2></td>
+                    <td class="el_center" colspan="3"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table2">
+                <tr class="row oids__items">
+                    <td colspan="2" class="oids">ЛАНТАНОИДЫ</td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Ce</span>
+                        <span class="el_number_right">58</span> <br>
+                        <span class="el_weight_right">(268)</span> <br>
+                        <span class="el_fullname_en">Cerium</span> <br>
+                        <span class="el_fullname_ru">Церий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Pr</span>
+                        <span class="el_number_right">59</span> <br>
+                        <span class="el_weight_right">140.908</span> <br>
+                        <span class="el_fullname_en">Praseodymium</span> <br>
+                        <span class="el_fullname_ru">празеодим</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Nd</span>
+                        <span class="el_number_right">60</span> <br>
+                        <span class="el_weight_right">144.24</span> <br>
+                        <span class="el_fullname_en">Neodymium</span> <br>
+                        <span class="el_fullname_ru">Неодим</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Pm</span>
+                        <span class="el_number_right">61</span> <br>
+                        <span class="el_weight_right">144.91</span> <br>
+                        <span class="el_fullname_en">Promethium</span> <br>
+                        <span class="el_fullname_ru">Прометий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Sm</span>
+                        <span class="el_number_right">62</span> <br>
+                        <span class="el_weight_right">150.36</span> <br>
+                        <span class="el_fullname_en">Samarium</span> <br>
+                        <span class="el_fullname_ru">Самарий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Eu</span>
+                        <span class="el_number_right">63</span> <br>
+                        <span class="el_weight_right">151.96</span> <br>
+                        <span class="el_fullname_en">Europium</span> <br>
+                        <span class="el_fullname_ru">Европий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Gd</span>
+                        <span class="el_number_right">64</span> <br>
+                        <span class="el_weight_right">157.25</span> <br>
+                        <span class="el_fullname_en">Gadolinium</span> <br>
+                        <span class="el_fullname_ru">Гадолиний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Tb</span>
+                        <span class="el_number_right">65</span> <br>
+                        <span class="el_weight_right">158.926</span> <br>
+                        <span class="el_fullname_en">Terbium</span> <br>
+                        <span class="el_fullname_ru">Тербий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Dy</span>
+                        <span class="el_number_right">66</span> <br>
+                        <span class="el_weight_right">162.50</span> <br>
+                        <span class="el_fullname_en">Dysprosium</span> <br>
+                        <span class="el_fullname_ru">Диспрозий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Ho</span>
+                        <span class="el_number_right">67</span> <br>
+                        <span class="el_weight_right">164.930</span> <br>
+                        <span class="el_fullname_en">Holmium</span> <br>
+                        <span class="el_fullname_ru">Гольмий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Er</span>
+                        <span class="el_number_right">68</span> <br>
+                        <span class="el_weight_right">167.26</span> <br>
+                        <span class="el_fullname_en">Erbium</span> <br>
+                        <span class="el_fullname_ru">Эрбий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Tm</span>
+                        <span class="el_number_right">69</span> <br>
+                        <span class="el_weight_right">168.934</span> <br>
+                        <span class="el_fullname_en">Thulium</span> <br>
+                        <span class="el_fullname_ru">Тулий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Yb</span>
+                        <span class="el_number_right">70</span> <br>
+                        <span class="el_weight_right">173.04</span> <br>
+                        <span class="el_fullname_en">Ytterbium</span> <br>
+                        <span class="el_fullname_ru">Иттербий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #01fe00;">
+                        <span class="el_name">Lu</span>
+                        <span class="el_number_right">71</span> <br>
+                        <span class="el_weight_right">174.967</span> <br>
+                        <span class="el_fullname_en">Litetium</span> <br>
+                        <span class="el_fullname_ru">Лютеций</span>
+                    </td>
+                  </tr>
+                  <tr class="row oids__items">
+                    <td colspan="2" class="oids">АКТИНОИДЫ</td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Th</span>
+                        <span class="el_number_right">90</span> <br>
+                        <span class="el_weight_right">232.038</span> <br>
+                        <span class="el_fullname_en">Thorium</span> <br>
+                        <span class="el_fullname_ru">Торий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Pa</span>
+                        <span class="el_number_right">91</span> <br>
+                        <span class="el_weight_right">231.04</span> <br>
+                        <span class="el_fullname_en">Protactinium</span> <br>
+                        <span class="el_fullname_ru">Протактиний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">U</span>
+                        <span class="el_number_right">92</span> <br>
+                        <span class="el_weight_right">238.03</span> <br>
+                        <span class="el_fullname_en">Uranium</span> <br>
+                        <span class="el_fullname_ru">Уран</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Np</span>
+                        <span class="el_number_right">93</span> <br>
+                        <span class="el_weight_right">237.05</span> <br>
+                        <span class="el_fullname_en">Neptunium</span> <br>
+                        <span class="el_fullname_ru">Нептуний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Pu</span>
+                        <span class="el_number_right">94</span> <br>
+                        <span class="el_weight_right">244.06</span> <br>
+                        <span class="el_fullname_en">Plutonium</span> <br>
+                        <span class="el_fullname_ru">Плутоний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Am</span>
+                        <span class="el_number_right">95</span> <br>
+                        <span class="el_weight_right">243.06</span> <br>
+                        <span class="el_fullname_en">Americium</span> <br>
+                        <span class="el_fullname_ru">Америций</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Cm</span>
+                        <span class="el_number_right">96</span> <br>
+                        <span class="el_weight_right">247.07</span> <br>
+                        <span class="el_fullname_en">Curium</span> <br>
+                        <span class="el_fullname_ru">Кюрий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Bk</span>
+                        <span class="el_number_right">97</span> <br>
+                        <span class="el_weight_right">247.07</span> <br>
+                        <span class="el_fullname_en">Bercelium</span> <br>
+                        <span class="el_fullname_ru">Берклий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Cf</span>
+                        <span class="el_number_right">98</span> <br>
+                        <span class="el_weight_right">258.08</span> <br>
+                        <span class="el_fullname_en">Californium</span> <br>
+                        <span class="el_fullname_ru">Калифорний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Es</span>
+                        <span class="el_number_right">99</span> <br>
+                        <span class="el_weight_right">252.08</span> <br>
+                        <span class="el_fullname_en">Einstenium</span> <br>
+                        <span class="el_fullname_ru">Энштейний</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Fm</span>
+                        <span class="el_number_right">100</span> <br>
+                        <span class="el_weight_right">257.10</span> <br>
+                        <span class="el_fullname_en">Fermium</span> <br>
+                        <span class="el_fullname_ru">Фермий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Md</span>
+                        <span class="el_number_right">101</span> <br>
+                        <span class="el_weight_right">258.10</span> <br>
+                        <span class="el_fullname_en">Mendelevium</span> <br>
+                        <span class="el_fullname_ru">Менделевий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">No</span>
+                        <span class="el_number_right">102</span> <br>
+                        <span class="el_weight_right">259.10</span> <br>
+                        <span class="el_fullname_en">Nobelium</span> <br>
+                        <span class="el_fullname_ru">Нобелий</span>
+                    </td>
+                    <td class="el_right" style="background-color: #6ec201;">
+                        <span class="el_name">Lr</span>
+                        <span class="el_number_right">103</span> <br>
+                        <span class="el_weight_right">260.10</span> <br>
+                        <span class="el_fullname_en">Lawrencium</span> <br>
+                        <span class="el_fullname_ru">Лоуренсий</span>
+                    </td>
+                  </tr>
+              </table>
+        </div>
+    </div>
+</body>
+</html>
